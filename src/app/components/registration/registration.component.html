@@ -1,0 +1,33 @@
+<div class="registration-container">
+  <h2>Create Account</h2>
+  <p class="subtitle">It's quick and easy.</p>
+  <form>
+    <div>
+      <label>First Name</label>
+      <input type="text" placeholder="Enter first name" />
+    </div>
+    <div>
+      <label>Last Name</label>
+      <input type="text" placeholder="Enter last name" />
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="email" placeholder="Enter email" />
+    </div>
+    <div class="password-wrapper">
+      <label>Password</label>
+      <input [type]="showPassword ? 'text' : 'password'" placeholder="Enter password" />
+      <mat-icon class="toggle" (click)="togglePasswordVisibility()">
+        {{ showPassword ? 'visibility_off' : 'visibility' }}
+      </mat-icon>
+    </div>
+    <div class="password-wrapper">
+      <label>Confirm Password</label>
+      <input [type]="showConfirmPassword ? 'text' : 'password'" placeholder="Confirm password" />
+      <mat-icon class="toggle" (click)="toggleConfirmPasswordVisibility()">
+        {{ showConfirmPassword ? 'visibility_off' : 'visibility' }}
+      </mat-icon>
+    </div>
+    <button type="submit">Register</button>
+  </form>
+</div>
