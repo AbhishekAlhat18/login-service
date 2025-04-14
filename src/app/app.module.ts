@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { MatIconModule } from '@angular/material/icon';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HomepageComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
