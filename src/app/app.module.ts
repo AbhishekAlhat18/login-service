@@ -8,6 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import { EmailVerificationComponent } from './components/email-verification/email-verification.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
     LoginComponent,
     RegistrationComponent,
     HomepageComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    EmailVerificationComponent
   ],
   imports: [
     BrowserModule,
