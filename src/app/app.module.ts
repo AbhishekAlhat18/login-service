@@ -9,6 +9,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { EmailVerificationComponent } from './components/email-verification/email-verification.component';
+import { AboutPageComponent } from './components/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EmailVerificationComponent } from './components/email-verification/emai
     RegistrationComponent,
     HomepageComponent,
     UserProfileComponent,
-    EmailVerificationComponent
+    EmailVerificationComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
